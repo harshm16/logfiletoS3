@@ -7,6 +7,7 @@ import com.typesafe.config.{Config, ConfigFactory}
 
 import java.io.File
 
+// Reference https://faun.pub/write-files-from-ec2-to-s3-in-aws-programmatically-716d1a4ef639
 object sendtoS3:
 
   val user_config: Config = ConfigFactory.load("lambdaJson.conf")
